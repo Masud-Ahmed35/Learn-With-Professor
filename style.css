@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
+
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -25,4 +26,12 @@ body {
 
 .text-Alignment {
     text-align: center;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.fa-star-half-stroke {
+    color: orange;
 }
