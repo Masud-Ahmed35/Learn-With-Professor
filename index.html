@@ -307,16 +307,42 @@
 
         <!-- Start Registration Title Section -->
         <section class="container my-5">
-            <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 bg-info rounded-3 p-5 text-white">
-                <div class="col-8">
+            <div
+                class="d-flex flex-sm-column flex-md-column flex-lg-row justify-content-evenly align-items-center bg-info rounded-3 p-5 text-dark">
+                <div class="text-white">
                     <h1 class="fs-1 fw-bold">Ready to join?</h1>
                     <p>It is a long established fact that a reader will be distracted by the</p>
                     <p>readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="col-4 d-flex align-items-center ps-5">
-                    <button type="button" class="btn btn-warning fs-3 px-4 py-2 rounded-3 text-dark">Register
-                        Now</button>
+                <div>
+                    <button type="button" class="btn btn-warning fs-3 px-4 py-2 rounded-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Registration
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">It's a Modal</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h4 class="fw-bold">Learn With Professor</h4>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </section>
 
@@ -470,18 +496,17 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseOne">
-                                Accordion Item #1
+                                What are the difference between flex and grid?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
+                                designed for layout in one dimension - either a row or a column. Grid was designed for
+                                two-dimensional layout - rows, and columns at the same time. The two specifications
+                                share some common features, however, and if you have already learned how to use flexbox,
+                                the similarities should help you get to grips with Grid.
                             </div>
                         </div>
                     </div>
@@ -490,18 +515,19 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseTwo">
-                                Accordion Item #2
+                                What are the difference between Bootstrap and Tailwind?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingTwo">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                Bootstrap is the most popular HTML, CSS, and JavaScript framework for building
+                                responsive, mobile-first projects on the web. Tailwind CSS, on the other hand, is the
+                                most popular utility-first CSS framework for fast UI development. The main difference
+                                between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI
+                                kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn’t have
+                                a default theme or built-in UI components. Instead, it comes with predesigned widgets
+                                you can use to build your site from scratch.
                             </div>
                         </div>
                     </div>
@@ -510,18 +536,17 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseThree">
-                                Accordion Item #3
+                                What is CSS Box Model?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                The CSS box model is a container that contains multiple properties including borders,
+                                margin, padding, and the content itself. It is used to create the design and layout of
+                                web pages. It can be used as a toolkit for customizing the layout of different elements.
+                                The web browser renders every element as a rectangular box according to the CSS box
+                                model. Box-Model has multiple properties in CSS.
                             </div>
                         </div>
                     </div>
@@ -530,18 +555,24 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                                 aria-controls="panelsStayOpen-collapseFour">
-                                Accordion Item #4
+                                What is Semantic tag?
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
                             aria-labelledby="panelsStayOpen-headingFour">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                In programming, Semantics refers to the meaning of a piece of code — for example "what
+                                effect does running that line of JavaScript have?", or "what purpose or role does that
+                                HTML element have".
+
+                                Semantics in CSS
+                                In CSS, consider styling a list with li elements representing different types of
+                                fruits. Would you know what part of the DOM is being selected with div > ul > li, or
+                                .fruits__item?
+
+                                Semantics in HTML
+                                In HTML, for example, the (h1) element is a semantic element, which gives the text
+                                it wraps around the role (or meaning) of "a top level heading on your page."
                             </div>
                         </div>
                     </div>
@@ -551,9 +582,9 @@
 
 
         <!-- Start Trusted Companies Section -->
-        <section class="container my-5">
+        <section class="container my-5 d-sm-none d-md-none d-lg-block">
             <h1 class="fs-1 fw-bolder text-Alignment pt-5">Trusted by over 800+ companies</h1>
-            <div class="row my-5 row-cols-lg-6 row-cols-md-none row-cols-sm-none row-cols-none">
+            <div class="row my-5 row-cols-lg-6">
                 <div class="col-2">
                     <img class="img-fluid" src="images/company/company-1.png" alt="">
                 </div>
