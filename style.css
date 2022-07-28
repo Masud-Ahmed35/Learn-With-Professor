@@ -7,6 +7,11 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+.navbarHover:hover {
+    background-color: lightgray;
+
+}
+
 
 #carouselExampleCaptions .carousel-caption {
     top: 0;
@@ -35,3 +40,16 @@ body {
 .fa-star-half-stroke {
     color: orange;
 }
+
+/* Image overlay of hero section */
+
+/* .carousel-item::before {
+    content: "";
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+} */
