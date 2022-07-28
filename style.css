@@ -1,3 +1,12 @@
+/* ---------Google Fonts------------ */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
 #carouselExampleCaptions .carousel-caption {
     top: 0;
     bottom: 0;
