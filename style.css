@@ -7,11 +7,13 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+/* ---Hover on Navigation Bar--- */
 .navbarHover:hover {
     background-color: lightgray;
 
 }
 
+/* ----------Hero Section style-------------- */
 
 #carouselExampleCaptions .carousel-caption {
     top: 0;
@@ -24,6 +26,27 @@ body {
     padding-bottom: 0;
 
 }
+
+
+.carousel-control-next-icon {
+    background-color: gray;
+}
+
+.carousel-control-prev-icon {
+    background-color: gray;
+
+}
+
+.textFormatingForh1 {
+    font-size: 50px;
+}
+
+.textFormatingForparagraph {
+    font-size: 20px;
+}
+
+
+/* ----------End Hero Section styles-------------- */
 
 .font-gray {
     color: rgb(243, 246, 247);
